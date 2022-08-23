@@ -13,10 +13,10 @@ namespace FinalTask01
             string[] FirstArray = new string[7] { "1234", "1567", "-2", ":-)", "var", "nike", "Africa" };
             string[] SecondArray = new string[FirstArray.Length];
             
-            SecondArrayWithIF(FirstArray, SecondArray);
+            ModifiedSecondArray(FirstArray, SecondArray);
             PrintArray(SecondArray);
         }
-        static void SecondArrayWithIF(string[] FirstArray, string[] SecondArray)
+        static void ModifiedSecondArray(string[] FirstArray, string[] SecondArray)
             {
                 int count = 0;
                 for (int i = 0; i < FirstArray.Length; i++)
